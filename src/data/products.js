@@ -3,8 +3,8 @@ export const productsData = [
       id: 1,
       title: 'iPhone 15 Pro Max 256GB',
       price: 'R$ 8.999,00',
-      description: 'O mais avançado iPhone já criado, com chip A17 Pro...',
-      image: '/images/iphone15.jpg',
+      description: 'O mais avançado iPhone já criado, com chip A17 Pro e sistema de câmeras profissional.',
+      image: '',
       rating: {
         stars: 5,
         count: 4.8,
@@ -16,8 +16,8 @@ export const productsData = [
       id: 2,
       title: 'Samsung Galaxy S24 Ultra 512GB',
       price: 'R$ 7.499,00',
-      description: 'Galaxy AI revolucionário, S Pen integrada...',
-      image: '/images/samsung-galaxy.jpg',
+      description: 'Galaxy AI revolucionário, S Pen integrada e câmera de 200MP para fotos incríveis.',
+      image: '',
       rating: {
         stars: 5,
         count: 4.7,
@@ -29,104 +29,104 @@ export const productsData = [
         id: 3,
         title: 'MacBook Pro 14" M3 Pro 18GB',
         price: 'R$ 15.999,00',
-        description: '',
+        description: 'Performance profissional com chip M3 Pro, tela Liquid Retina XDR e bateria de longa duração',
         image: '',
         rating: {
           stars: 5,
           count: 4.9,
           reviews: 2.156
         },
-        category: 'Laptops'
+        category: 'laptops'
     },
     {
         id: 4,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'Dell XPS 13 Intel i7 16GB SSD 512GB',
+        price: 'R$ 6.799,00',
+        description: 'Ultrabook premium com design ultrafino, tela InfinityEdge e performance excepcional.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.6,
+          reviews: 543
         },
-        category: ''
+        category: 'laptops'
     },
     {
         id: 5,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'iPad Pro 12.9" M2 WiFi 128GB',
+        price: 'R$ 7.299,00',
+        description: 'O tablet mais poderoso do mundo com chip M2, tela Liquid Retina XDR e suporte ao Apple Pencil.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.8,
+          reviews: 1.876
         },
-        category: ''
+        category: 'tablets'
     },
     {
         id: 6,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'Samsung Galaxy Tab S9+ 256GB',
+        price: 'R$ 4.999,00',
+        description: 'Tablet premium Android com S Pen incluída, tela Dynamic AMOLED 2X e resistência à água.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.5,
+          reviews: 432
         },
-        category: ''
+        category: 'tablets'
     },
     {
         id: 7,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'Apple AirPods Pro 2ª Geração',
+        price: 'R$ 2.399,00',
+        description: 'Fones sem fio com cancelamento ativo de ruído, áudio espacial e até 30h de bateria.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.7,
+          reviews: 3.421
         },
-        category: ''
+        category: 'acessorios'
     },
     {
         id: 8,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'Apple Watch Series 9 GPS 45mm',
+        price: 'R$ 4.299,00',
+        description: 'Smartwatch mais avançado com chip S9, Double Tap, monitoramento de saúde completo.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.6,
+          reviews: 2.187
         },
-        category: ''
+        category: 'acessorios'
     },
     {
         id: 9,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'Carregador Sem Fio MagSafe 15W',
+        price: 'R$ 399,00',
+        description: 'Carregamento sem fio rápido e seguro para iPhone, alinhamento magnético perfeito.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.4,
+          reviews: 876
         },
-        category: ''
+        category: 'acessorios'
     },
     {
         id: 10,
-        title: '',
-        price: 'R$ ',
-        description: '',
+        title: 'Xiaomi 13 Pro 256GB Leica',
+        price: 'R$ 3.999,00',
+        description: 'Smartphone premium com câmeras Leica, carregamento ultra-rápido 120W e tela AMOLED.',
         image: '',
         rating: {
           stars: 5,
-          count: ,
-          reviews: 
+          count: 4.5,
+          reviews: 654
         },
-        category: ''
+        category: 'smartphones'
     },
 ]
