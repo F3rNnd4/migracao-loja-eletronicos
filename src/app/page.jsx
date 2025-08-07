@@ -22,11 +22,10 @@ export default function HomePage() {
 
   return (
     <div className={styles.body}>
-      <Header />
 
       <div className={styles.products}>
         {products.map((product) => (
-          <ProductCard 
+          <ProductCard
             key={product.id}
             image={product.image}
             title={product.title}
