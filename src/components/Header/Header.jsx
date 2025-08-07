@@ -12,8 +12,8 @@ export default function Header() {
           className={styles.logo}
           src="/img/mall-car.png"
           alt="Carro de Compras"
-          width={20}
-          height={20}
+          width={30}
+          height={30}
           priority
         />
         <h1>Loja de Eletrônicos</h1>
