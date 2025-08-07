@@ -36,4 +36,9 @@ export default function RootLayout({ children }) {
 export const metadata = {
   title: "Migração de Loja de Eletrônicos",
   description: "Atividade: Migração de Loja de Eletrônicos para Next.js",
+  icons: {
+    icon: "/img/mall-car.png",
+    shortcut: "/img/mall-car.png",
+    apple: "/img/mall-car.png",
+  }
 };
