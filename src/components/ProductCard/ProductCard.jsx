@@ -2,13 +2,14 @@ import React from "react";
 import styles from "./ProductCard.module.css";
 import Image from "next/image";
 
-export default function ProductCard({ imgLink, altImg, productTitle, productPrice, productDescription, productRating }) {
+export default function ProductCard({ image, title, price, description, rating, category }) {
+
     return (
-        <div className={styles.productCard} data-category="smartphones">
+        <div className={styles.productCard} data-category={category}>
             <div className={styles.productImage}>
                 <Image 
-                    src={imgLink || "/placeholder-image.jpg"}
-                    alt={altImg || "Produto"}
+                    src={image}
+                    alt={title}
                     width={300}
                     height={200}
                     style={{
@@ -19,14 +20,16 @@ export default function ProductCard({ imgLink, altImg, productTitle, productPric
                     }}
                 />
             </div>
-            <div className={styles.productTitle}>{productTitle}</div>
-            <div className={styles.productPrice}>{productPrice}</div>
+            <div className={styles.productTitle}>{title}</div>
+            <div className={styles.productPrice}>{price}</div>
             <div className={styles.productDescription}>
-                {productDescription}
+                {description}
             </div>
             <div className={styles.productRating}>
-                <span className={styles.stars}>⭐⭐⭐⭐⭐</span>
-                <span>{productRating}</span>
+                <span className={styles.stars}>
+                    {rating.stars}
+                </span>
+                <span>{rating.count} ({rating.reviews} avaliações)</span>
             </div>
         </div>
     );

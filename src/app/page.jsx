@@ -28,12 +28,12 @@ export default function HomePage() {
         {products.map((product) => (
           <ProductCard 
             key={product.id}
-            imgLink={product.imgLink}
-            altImg={product.altImg}
-            productTitle={product.productTitle}
-            productPrice={product.productPrice}
-            productDescription={product.productDescription}
-            productRating={product.productRating}
+            image={product.image}
+            title={product.title}
+            price={product.price}
+            description={product.description}
+            rating={product.rating}
+            category={product.category}
           />
         ))}
       </div>
