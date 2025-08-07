@@ -27,7 +27,7 @@ export default function ProductCard({ image, title, price, description, rating, 
             </div>
             <div className={styles.productRating}>
                 <span className={styles.stars}>
-                    {rating.stars}
+                    {'⭐'.repeat(rating.stars)}
                 </span>
                 <span>{rating.count} ({rating.reviews} avaliações)</span>
             </div>
